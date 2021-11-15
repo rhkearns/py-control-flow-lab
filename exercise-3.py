@@ -16,6 +16,9 @@ counter = 0
 if age >= 2:
   counter += 2 * 10
   age -= 2
+elif age == 1:
+  counter += 10
+  age -= 1
 while age > 0:
   counter += 7
   age -= 1
