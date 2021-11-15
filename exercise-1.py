@@ -15,5 +15,7 @@
 letter = input('Please enter a letter from the alphabet: ')
 if letter in 'aeiou':
   print(f'The letter {letter} is a vowel')
+elif letter in 'bcdfghjklmnpqrstvwxyz':
+  print(f'The letter {letter} is a consonant')
 else:
-  print(f'The letter {letter} is not a vowel')
+  print("You don't know what a letter is")
